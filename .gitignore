@@ -105,4 +105,4 @@ dist
 
 # Responses directory
 responses/*
-!responses/test.json
+!responses/sample.json

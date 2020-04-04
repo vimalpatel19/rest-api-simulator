@@ -1,10 +1,13 @@
 const express = require("express");
 const app = express();
+const cors = require('cors');
 const fs = require('fs');
 
 const port = 8000;
 
-// Setup path used for mocking REST API calls
+app.use(cors());
+
+// Setup path used for mocking successful REST API calls
 app.get("/:path", (req, res) => {
     let path = req.params.path;
     let file = `${path}.json`;
