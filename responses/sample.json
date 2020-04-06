@@ -1,3 +1,5 @@
 {
-    "message": "rest-api-simulator /test endpoint response"
+    "message": "rest-api-simulator /test endpoint response",
+    "version": "0.0.1",
+    "allowCoolFeature": false
 }
